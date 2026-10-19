@@ -1,0 +1,139 @@
+@theme {
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-subtle: var(--accent-subtle);
+  --color-accent-muted: var(--accent-muted);
+  --color-accent-text: var(--accent-text);
+
+  --color-canvas: var(--bg-canvas);
+  --color-surface: var(--bg-surface);
+  --color-surface-subtle: var(--bg-surface-subtle);
+  --color-surface-muted: var(--bg-surface-muted);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+
+  --color-border-subtle: var(--border-subtle);
+  --color-border-default: var(--border-default);
+  --color-border-strong: var(--border-strong);
+
+  --color-ring: var(--ring-color);
+  --color-ring-offset: var(--ring-offset-color);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-hover: var(--destructive-hover);
+  --color-destructive-subtle: var(--destructive-subtle);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-success: var(--success);
+  --color-success-subtle: var(--success-subtle);
+  --color-success-foreground: var(--success-foreground);
+
+  --color-warning: var(--warning);
+  --color-warning-subtle: var(--warning-subtle);
+  --color-warning-foreground: var(--warning-foreground);
+
+  /* Radius tokens: controls 6px, cards 8px, icon box 6px */
+  --radius-xs: 4px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 8px;
+  --radius-full: 9999px;
+
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.04);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.06), 0 1px 2px -1px rgb(0 0 0 / 0.04);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.04);
+}
+
+:root {
+  /* Main Accent: #283845 */
+  --accent: #283845;
+  --accent-hover: #1e2c37;
+  --accent-foreground: #ffffff;
+  --accent-subtle: #eef3f7;
+  --accent-muted: #cad7e2;
+  --accent-text: #283845;
+
+  /* Surfaces */
+  --bg-canvas: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-surface-subtle: #f1f5f9;
+  --bg-surface-muted: #e2e8f0;
+
+  /* Typography / Text with WCAG AA Contrast */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+
+  /* Borders */
+  --border-subtle: #f1f5f9;
+  --border-default: #e2e8f0;
+  --border-strong: #cbd5e1;
+
+  /* Focus Ring */
+  --ring-color: #283845;
+  --ring-offset-color: #ffffff;
+
+  /* Status Colors */
+  --destructive: #dc2626;
+  --destructive-hover: #b91c1c;
+  --destructive-subtle: #fef2f2;
+  --destructive-foreground: #ffffff;
+
+  --success: #059669;
+  --success-subtle: #ecfdf5;
+  --success-foreground: #ffffff;
+
+  --warning: #d97706;
+  --warning-subtle: #fffbeb;
+  --warning-foreground: #ffffff;
+}
+
+.dark {
+  /* Main Accent: #283845 */
+  --accent: #283845;
+  --accent-hover: #34495a;
+  --accent-foreground: #ffffff;
+  --accent-subtle: #15222c;
+  --accent-muted: #253a4b;
+  --accent-text: #8eb4cf;
+
+  /* Surfaces */
+  --bg-canvas: #0d1217;
+  --bg-surface: #141c24;
+  --bg-surface-subtle: #1c2732;
+  --bg-surface-muted: #263544;
+
+  /* Typography / Text with WCAG AA Contrast */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* Borders */
+  --border-subtle: #1c2732;
+  --border-default: #263544;
+  --border-strong: #384c5f;
+
+  /* Focus Ring on Dark Surfaces */
+  --ring-color: #8eb4cf;
+  --ring-offset-color: #141c24;
+
+  /* Status Colors */
+  --destructive: #f87171;
+  --destructive-hover: #ef4444;
+  --destructive-subtle: #241416;
+  --destructive-foreground: #ffffff;
+
+  --success: #34d399;
+  --success-subtle: #0d281e;
+  --success-foreground: #ffffff;
+
+  --warning: #fbbf24;
+  --warning-subtle: #2c210d;
+  --warning-foreground: #ffffff;
+}
