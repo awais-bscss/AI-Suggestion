@@ -3,6 +3,8 @@
 An accessible, provider-agnostic AI suggestion component built on a token-based mini design system.
 It supports preview, edit, accept, reject, regenerate, and error flows without backend dependencies.
 
+Check out the [Live Demo on GitHub Pages](https://awais-bscss.github.io/AI-Suggestion/).
+
 ## Features
 
 - Complete state machine: idle, loading, ready, editing, and error states.
